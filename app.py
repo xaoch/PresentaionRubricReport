@@ -1,19 +1,12 @@
-import pandas as pd
 import streamlit as st
-import numpy as np
-import matplotlib.pyplot as plt
 import pandas as pd
-import plot_likert
 import pickle
 import os.path
 import time
 
 import os.path
 
-from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
-from google_auth_oauthlib.flow import InstalledAppFlow
-from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 import plotly.express as px
 
